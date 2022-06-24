@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BUILD_DIR=$1
+CACHE_DIR=$2
+ENV_DIR=$3
+
+cd "$BUILD_DIR"
+
+bin/get_assets $SOURCE_VERSION
+bin/extract_assets $SOURCE_VERSION
