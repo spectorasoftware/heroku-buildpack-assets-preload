@@ -21,5 +21,5 @@ cd "$BUILD_DIR"
 
 export_env_dir "$ENV_DIR"
 
-bin/get_assets $SOURCE_VERSION
-bin/extract_assets $SOURCE_VERSION
+bin/get_assets $SOURCE_VERSION deploy
+bin/extract_assets $SOURCE_VERSION deploy
